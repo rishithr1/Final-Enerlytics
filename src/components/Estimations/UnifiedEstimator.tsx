@@ -382,7 +382,7 @@ const UnifiedEstimator: React.FC = () => {
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               <span className="text-sm text-gray-700">
-                <strong>Payback Period:</strong> Your investment will be recovered in {formatYears(results.paybackPeriod)} years.
+                <strong>Payback Period:</strong> Your investment will be recovered in {formatYears(results.paybackPeriod)}
               </span>
             </div>
             <div className="flex items-center space-x-2">
@@ -396,7 +396,7 @@ const UnifiedEstimator: React.FC = () => {
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
               <span className="text-sm text-gray-700">
-                <strong>Break-even Point:</strong> You'll start profiting after {results.breakEvenYear.toFixed(1)} years.
+                <strong>Break-even Point:</strong> You'll start profiting after {results.breakEvenYear.toFixed(1)} years
               </span>
             </div>
             <div className="flex items-center space-x-2">
